@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    padding: 200px;
+    padding-left: 500px;
+    margin: 20px;
+    border: 10px;
+}
+
+.card-container {
+    width: 382px;
+    height: 520px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 1px;
+    border: 3px solid #000000;
+    margin: 10px;
+    /* flex-direction: column;
+    display: flex; */
+
+    /* text-align: start; */
+}
+
+.image{
+    padding: 10px;
+    margin: 0px;
+    width: 340px;
+    height: 200px;
+    border-radius: 20px;
+    ;
+
+}
+
+ 
+ 
+
+.button {
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    width: 82px;
+    height: 28px;
+    border: 2px;
+    margin-left: 10px;
+}
+
+.tile-description {
+    padding: 10px;
+     display: flex;
+    flex-direction: column; 
+    text-align: start;
+   
+    
+}
+.tile-description .p2{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 313px;
+    height: 65px;
+}
+
+.developer-info{
+    width: max-content;
+    align-items: center;
+
+    display: flex;
+padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.developer-info img {
+    margin-right: 20px; 
+    width: 31px;
+    height: 31px;
+}
+.developer-name {
+    ;
+    font-weight: bold;
+  font-stretch: normal;}
+
+
+/*  font */
+body,button {
+    font-family:'Figtree', sans-serif ;
+}
+
+p2 {
+    color: hsl(0, 0%, 50%);}
+
+
+
+/* Styles for mobile */
+@media only screen and (max-width: 375px) {
+    /* Your mobile styles here */
+}
+
+/* Styles for desktop */
+@media only screen and (min-width: 376px) and (max-width: 1440px) {
+    /* Your desktop styles here */
+}
